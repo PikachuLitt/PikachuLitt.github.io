@@ -1,56 +1,96 @@
 ---
 permalink: /
-title: "Academic Pages is a ready-to-fork GitHub Pages template for academic personal websites"
+title: "Tingting Li"
+excerpt: "About me"
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
 
-This is the front page of a website that is powered by the [Academic Pages template](https://github.com/academicpages/academicpages.github.io) and hosted on GitHub pages. [GitHub pages](https://pages.github.com) is a free service in which websites are built and hosted from code and data stored in a GitHub repository, automatically updating when a new commit is made to the repository. This template was forked from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/) created by Michael Rose, and then extended to support the kinds of content that academics have: publications, talks, teaching, a portfolio, blog posts, and a dynamically-generated CV. Incidentally, these same features make it a great template for anyone that needs to show off a professional template!
+**ZJU100 Young Professor**
 
- You can fork [this template](https://github.com/academicpages/academicpages.github.io) right now, modify the configuration and Markdown files, add your own PDFs and other content, and have your own site for free, with no ads!
+<span class='anchor' id='about-me'></span>
 
-A data-driven personal website
-======
-Like many other Jekyll-based GitHub Pages templates, Academic Pages makes you separate the website's content from its form. The content & metadata of your website are in structured Markdown files, while various other files constitute the theme, specifying how to transform that content & metadata into HTML pages. You keep these various Markdown (.md), YAML (.yml), HTML, and CSS files in a public GitHub repository. Each time you commit and push an update to the repository, the [GitHub pages](https://pages.github.com/) service creates static HTML pages based on these files, which are hosted on GitHub's servers free of charge.
+## Biography
+I am a ZJU100 Young Professor in the College of Software Technology at Zhejiang University (ZJU) and a member of the Advanced Computing and Emerging Software (ACES) Laboratory. I received my Ph.D. degree from Zhejiang University in 2025, advised by Prof. [Jianwei Yin](https://person.zju.edu.cn/0001038) and co-advised by Prof. [Liqiang Lu](https://person.zju.edu.cn/liqianglu). During my doctoral studies, my research was also closely mentored by Prof. [Ziming Zhao](https://person.zju.edu.cn/zhaoziming#0). During this period, I was also affiliated with the Superconducting Quantum Computing and Quantum Simulation Laboratory at Zhejiang University, led by Prof. [Haohua Wang](https://person.zju.edu.cn/0010051#947782). Before joining Zhejiang University, I worked as a Senior Researcher at the Shanghai Qi Zhi Institute, where I conducted research under the guidance of Prof. [Dongling Deng](https://iiis.tsinghua.edu.cn/rydw/qzjs/dengdongling.htm) at Tsinghua University. Since June 2026, I have been an Assistant Professor (ZJU100 Young Professor) at Zhejiang University.
 
-Many of the features of dynamic content management systems (like Wordpress) can be achieved in this fashion, using a fraction of the computational resources and with far less vulnerability to hacking and DDoSing. You can also modify the theme to your heart's content without touching the content of your site. If you get to a point where you've broken something in Jekyll/HTML/CSS beyond repair, your Markdown files describing your talks, publications, etc. are safe. You can rollback the changes or even delete the repository and start over - just be sure to save the Markdown files! You can also write scripts that process the structured data on the site, such as [this one](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb) that analyzes metadata in pages about talks to display [a map of every location you've given a talk](https://academicpages.github.io/talkmap.html).
+My research interests lie at the intersection of quantum computing and artificial intelligence, with a particular focus on **Quantum AI, quantum software and systems, quantum cloud computing, and cross-disciplinary of quantum and AI**. My goal is to develop high-performance and intelligent quantum computing software and algorithmic frameworks, enabling practical quantum computing applications in scientific computing, including life sciences, quantum & AI for science, and financial optimization. I have authored over 40 scientific publications, including 16 first- or corresponding-author papers in top-tier conferences and journals, such as Nature, Nature Physics, ISCA, ASE, KDD, INFOCOM, and TIFS.
 
-For those users that need more advanced functionality, the template also supports the following popular tools:
-- [MathJax](https://www.mathjax.org/) for mathematical equations
-- [Mermaid](https://mermaid.js.org/) for diagraming
-- [Plotly](https://plotly.com/javascript/) for plotting
+*<span style="color:red">**Openings:** I am actively recruiting Ph.D. students, Master's students and research interns. My group focuses on Quantum AI, AI for Quantum, quantum software and systems, and interdisciplinary quantum applications. Students with backgrounds in computer science, AI, physics, or related fields who are interested in quantum computing and artificial intelligence are welcome to join us. Please feel free to contact me. </span>*
 
-Getting started
-======
-1. Register a GitHub account if you don't have one and confirm your e-mail (required!)
-1. Fork [this template](https://github.com/academicpages/academicpages.github.io) by clicking the "Use this template" button in the top right. 
-1. Go to the repository's settings (rightmost item in the tabs that start with "Code", should be below "Unwatch"). Rename the repository "[your GitHub username].github.io", which will also be your website's URL.
-1. Set site-wide configuration and create content & metadata (see below -- also see [this set of diffs](https://archive.is/3TPas) showing what files were changed to set up [an example site](https://getorg-testacct.github.io) for a user with the username "getorg-testacct")
-1. Upload any files (like PDFs, .zip files, etc.) to the files/ directory. They will appear at https://[your GitHub username].github.io/files/example.pdf.  
-1. Check status by going to the repository settings, in the "GitHub pages" section
 
-Site-wide configuration
-------
-The main configuration file for the site is in the base directory in [_config.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_config.yml), which defines the content in the sidebars and other site-wide features. You will need to replace the default variables with ones about yourself and your site's github repository. The configuration file for the top menu is in [_data/navigation.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_data/navigation.yml). For example, if you don't have a portfolio or blog posts, you can remove those items from that navigation.yml file to remove them from the header. 
+<!-- # 🔥 News
+- *2026.05*: &nbsp; 🎉 One paper was accepted by [CCS 2026](https://www.sigsac.org/ccs/CCS2026/).
+- *2026.05*: &nbsp; 🎉 Two papers was accepted by [KDD 2026](https://kdd2026.kdd.org/).
+- *2026.05*: &nbsp; 🎉 One paper was accepted by [TIFS 2026](https://signalprocessingsociety.org/publications-resources/ieee-transactions-information-forensics-and-security). -->
 
-Create content & metadata
-------
-For site content, there is one Markdown file for each type of content, which are stored in directories like _publications, _talks, _posts, _teaching, or _pages. For example, each talk is a Markdown file in the [_talks directory](https://github.com/academicpages/academicpages.github.io/tree/master/_talks). At the top of each Markdown file is structured data in YAML about the talk, which the theme will parse to do lots of cool stuff. The same structured data about a talk is used to generate the list of talks on the [Talks page](https://academicpages.github.io/talks), each [individual page](https://academicpages.github.io/talks/2012-03-01-talk-1) for specific talks, the talks section for the [CV page](https://academicpages.github.io/cv), and the [map of places you've given a talk](https://academicpages.github.io/talkmap.html) (if you run this [python file](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.py) or [Jupyter notebook](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb), which creates the HTML for the map based on the contents of the _talks directory).
+<!-- # 📝 Conference Publications  -->
+<!-- # 📝 Journal Publications  -->
 
-**Markdown generator**
+<span class='anchor' id='publications'></span>
 
-The repository includes [a set of Jupyter notebooks](https://github.com/academicpages/academicpages.github.io/tree/master/markdown_generator
-) that converts a CSV containing structured data about talks or presentations into individual Markdown files that will be properly formatted for the Academic Pages template. The sample CSVs in that directory are the ones I used to create my own personal website at stuartgeiger.com. My usual workflow is that I keep a spreadsheet of my publications and talks, then run the code in these notebooks to generate the Markdown files, then commit and push them to the GitHub repository.
+## 📝 Selected Publications 
+- ``SC 2026`` [End-to-End Modeling and Trace-Driven Replay for Hybrid Quantum-Classical Supercomputing](), Ziming Zhao, **Tingting Li**, Zhaoxuan Li, Xiaofei Yue, Jiongchi Yu, Jianwei Yin, **International Conference for High Performance Computing, Networking, Storage and Analysis (SC), 2026**. [CCF A]
 
-How to edit your site's GitHub repository
-------
-Many people use a git client to create files on their local computer and then push them to GitHub's servers. If you are not familiar with git, you can directly edit these configuration and Markdown files directly in the github.com interface. Navigate to a file (like [this one](https://github.com/academicpages/academicpages.github.io/blob/master/_talks/2012-03-01-talk-1.md) and click the pencil icon in the top right of the content preview (to the right of the "Raw | Blame | History" buttons). You can delete a file by clicking the trashcan icon to the right of the pencil icon. You can also create new files or upload files by navigating to a directory and clicking the "Create new file" or "Upload files" buttons. 
+- ``ACL 2026`` [Explainable Quantum Program Repair with Verifiable Proof Traces](), **Tingting Li**, Ziming Zhao, Zhaoxuan Li, Jiongchi Yu, Xiaofei Yue, Jianwei Yin, **The Association for Computational Linguistics (ACL), 2026**.
 
-Example: editing a Markdown file for a talk
-![Editing a Markdown file for a talk](/images/editing-talk.png)
+- ``WWW 2026`` [Fair and Carbon-Aware LLM Routing for Web Services](), **Tingting Li**, Ziming Zhao, Zhaoxuan Li, Xiaofei Yue, Jiongchi Yu, **ACM Web Conference (WWW), 2026**. [CCF A]
 
-For more info
-------
-More info about configuring Academic Pages can be found in [the guide](https://academicpages.github.io/markdown/), the [growing wiki](https://github.com/academicpages/academicpages.github.io/wiki), and you can always [ask a question on GitHub](https://github.com/academicpages/academicpages.github.io/discussions). The [guides for the Minimal Mistakes theme](https://mmistakes.github.io/minimal-mistakes/docs/configuration/) (which this theme was forked from) might also be helpful.
+- ``AAAI 2026`` [Adaptive Fidelity Estimation for Quantum Programs with Graph-Guided Noise Awareness](), **Tingting Li**, Ziming Zhao, Jianwei Yin, **AAAI Conference on Artificial Intelligence (AAAI), 2026**. [CCF A]
+
+- ``ASE 2025`` [AutoFid: Adaptive and Noise-Aware Fidelity Measurement for Quantum Programs via Circuit Graph Analysis](), **Tingting Li**, Ziming Zhao, Jianwei Yin, **IEEE/ACM International Conference on Automated Software Engineering (ASE), 2025**. [CCF A]
+
+- ``TIFS 2025`` [Task-Driven Device Fingerprinting for Quantum Cloud Platforms via Modeling QNN Outcomes under Noise](), **Tingting Li**, Ziming Zhao, Jianwei Yin, **IEEE Transactions on Information Forensics and Security (TIFS), 2025**. [CCF A]
+
+- ``IJCAI 2025`` [Empowering Quantum Serverless Circuit Deployment Optimization via Graph Contrastive Learning and Learning-to-Rank Co-designed Approaches](), **Tingting Li**, Ziming Zhao, Jianwei Yin, **International Joint Conference on Artificial Intelligence (IJCAI), 2025**. [CCF A]
+
+- ``INFOCOM 2025`` [Fortuna: Towards Efficient Selection of High-Fidelity Link for Quantum Networks in the Wild](), **Tingting Li**, Ziming Zhao, Jianwei Yin, **IEEE International Conference on Computer Communications (INFOCOM), 2025**. [CCF A]
+
+- ``DATE 2025`` [Empowering Quantum Error Traceability with Mixture-of-Experts for Automatic Calibration](), **Tingting Li**, Ziming Zhao, Liqiang Lu, Siwei Tan, Jianwei Yin, **Design, Automation and Test in Europe Conference (DATE), 2025**. [CCF B, Top-tier conferences in electronic design automation (EDA)]
+
+- ``TCAD 2024`` [QuST: Optimizing Quantum Neural Network Against Spatial and Temporal Noise Biases](), **Tingting Li**, Liqiang Lu, Ziming Zhao, Ziqi Tan, Siwei Tan, Jianwei Yin, **IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems (TCAD), 2024**. [CCF A]
+
+- ``ACM MM 2024`` [Minerva: Enhancing Quantum Network Performance for High-Fidelity Multimedia Transmission](), **Tingting Li**, Ziming Zhao, Jianwei Yin, **ACM Multimedia (ACM MM), 2024**. [CCF A]
+
+- ``ICWS 2024`` [Moirai: Optimizing Quantum Serverless Function Orchestration via Device Allocation and Circuit Deployment](), **Tingting Li**, Ziming Zhao, Jianwei Yin, **IEEE International Conference on Web Services (ICWS), 2024**. [CCF B, Top-tier conferences in service computing.]
+
+## 🏆 Awards and Honors
+
+- **2025** — **Outstanding Doctoral Graduate**, Zhejiang University  
+- **2025** — ASE 2025 Student Travel Grant  
+- **2025** — **MindSpore Quantum Academic Funding**, Chinese Physical Society – Yangtze River Delta Innovation Center for Quantum Science and Technology  
+- **2025** — IEEE INFOCOM 2025 Student Travel Grant  
+- **2025** — The 4th CCF "Sinan Cup" Quantum Computing Programming Competition (General Track), **National First Prize** (Captain)  
+- **2024** — **National Scholarship for Graduate Students**, Ministry of Education of China  
+- **2024** — ACM MM 2024 Student Travel Grant  
+- **2024** — The 3rd CCF "Sinan Cup" Quantum Computing Programming Competition (General Track), **National First Prize** (Captain)  
+- **2024** — The 6th "Huawei Cup" Hackathon (Quantum Programming Competition), **National First Prize** (Captain)  
+<!-- - **2023** — The 2nd CCF "Sinan Cup" Quantum Computing Programming Competition (Quantum Machine Learning Track), **National Third Prize**   -->
+- **2022** — "Qiangwang Cup" Malicious Traffic Identification Competition, **National First Prize & Track Champion**  
+- **2021** — "Qiangwang Cup" Malicious Traffic Identification Competition, **National First Prize & Track Champion**  
+- **2021** — The 18th "Huawei Cup" Postgraduate Mathematical Modeling Competition, **National Second Prize**  
+- **2020** — Alibaba Tianchi "Flink" Challenge, **10th Place**  
+- **2020** — The 2nd Huawei Artificial Intelligence Competition, **National Second Prize & Huawei Special Award** (Ranked No. 1 in the Huawei competition track)  
+- **2020** — Provincial Outstanding Undergraduate Graduate, Hebei.
+
+
+## 🤝 Academic Services
+### Conference Reviewer
+SIGKDD, ISCA, NeurIPS, ACL, WWW, AAAI, CVPR, ACM MM, QCE, etc.
+
+### Journal Reviewer
+- IEEE Transactions on Information Forensics and Security (**TIFS**)
+- IEEE Transactions on Dependable and Secure Computing (**TDSC**)
+- IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems (**TCAD**)
+- ACM Transactions on Quantum Computing (**TQC**)
+- Pattern Recognition (**PR**)
+- Journal of Parallel and Distributed Computing (**JPDC**)
+- IEEE Network
+- Scientific Reports
+
+
+## 📚 Teaching Assistant
+- **Spring & Summer 2025** — Software Engineering  
+- **Spring & Summer 2024** — Software Engineering  
+- **Spring & Summer 2023** — Software Engineering
